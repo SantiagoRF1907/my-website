@@ -1,0 +1,74 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  background: linear-gradient(135deg, #0a1128, #001f54, #003566, #0a9396);
+  background-size: 400% 400%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+nav span {
+  background-color: transparent;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav span:hover {
+  background-color: #0a1128;
+  color: #1dcaff;
+}
+
+nav span a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav span a:hover {
+  color: #1dcaff;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.accordion-title {
+  margin-bottom: 15px;
+}
+
+.accordion,
+.accordion-item {
+  background-color: transparent;
+  margin-top: 0px;
+  color: white;
+}
+
+.accordion-header button {
+  background-color: #001f54;
+  color: white;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
